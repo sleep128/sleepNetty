@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="454c582f-2793-4891-967f-c5b84f90c924" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/netty.txt" afterPath="$PROJECT_DIR$/netty.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-client/src/main/java/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -37,6 +37,16 @@
                 <element signature="e#1727#2039#0" expanded="true" />
                 <element signature="e#2038#2039#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="netty.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,6 +124,7 @@
         <option value="$PROJECT_DIR$/netty-server/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/netty-client/src/main/java/ClientExample.java" />
         <option value="$PROJECT_DIR$/netty-client/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/netty.txt" />
       </list>
     </option>
   </component>
@@ -338,12 +349,12 @@
       <updated>1523692969984</updated>
       <workItem from="1523692973737" duration="1543000" />
       <workItem from="1523776036851" duration="5000" />
-      <workItem from="1523776057434" duration="3502000" />
+      <workItem from="1523776057434" duration="3733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5050000" />
+    <option name="totallyTimeSpent" value="5281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -525,6 +536,14 @@
             <element signature="e#1727#2039#0" expanded="true" />
             <element signature="e#2038#2039#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
