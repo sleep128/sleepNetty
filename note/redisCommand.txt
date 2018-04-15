@@ -1,0 +1,14 @@
+Redis安装教程：https://www.cnblogs.com/feijl/p/6879929.html
+
+本地redis配置文件：/Users/zhangyang/dev/devInstall/redis-3.2.11/etc/redis.conf
+
+本地redis日志文件：/Users/zhangyang/dev/devInstall/redis-3.2.11/log-redis.log
+
+启动本地redis: ./bin/redis-server etc/redis.conf
+
+打开redis 客户端：./bin/redis-cli
+关闭redis :在客户端里 shutdown
+
+
+redis命令：
+

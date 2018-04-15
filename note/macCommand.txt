@@ -1,0 +1,27 @@
+
+
+速定位文件路径到cmd: cd 后把文件夹拖到终端
+保存：command + s
+复制粘贴：command + c ,command + v
+finder 定位文件路径：Finder中输入：command＋shift＋G ,输入文件地址
+打开配置文件： open -e .bash_profile
+
+cpu占用：top
+杀掉进程：kill pid
+查看当前java进程:jps
+输出进程java进程信息：jstack pid > DeskTop/文件名（Desktop/jstack697.log）
+
+
+idea 快捷键：
+搜索类名： command + N
+格式化代码：option + command + L
+去除多余import: option + command + O
+错误信息提示： option + 空格
+生成代码块：option + command + T
+生成代码：control + enter
+添加一条
+VIM使用:
+退出：:q,强制:q!
+写：:w, 强制:w!
+
+hello

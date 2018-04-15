@@ -1,0 +1,26 @@
+1.find . -name '*fileName*' 查找包含fileName的文件
+'fileName*':以fileName开头
+'*fileName':以fileName结尾
+
+2.grep 
+查找文件包含某个字符串：grep 'str' fileName.txt
+显示行数：grep -n 'str' fileName.txt
+搜索忽略大小写 grep -i 'str' fileName.txt
+
+3.显示进程并过滤
+ps -ef|grep mysql  
+-e显示所有程序
+
+4.vi 文件，再查找文件中的制定字符
+/str 向下查找str字符 ?str向上查找str
+n按同一方向继续查找，N按反方向继续查找
+
+5.查询端口占用，并杀掉对应进程 
+	lsof -i:3306
+	kill pid
+
+6.tail -f fileName 动态查看文件内容
+tail -10 fileName 文件后10行
+head -10 fileName 文件前10行
+
+7.telnet 
