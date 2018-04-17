@@ -23,4 +23,4 @@ n按同一方向继续查找，N按反方向继续查找
 tail -10 fileName 文件后10行
 head -10 fileName 文件前10行
 
-7.telnet 
+7.telnet local 8080
