@@ -1,13 +1,10 @@
-package com.discard;
+package com.netty.handler;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.CharsetUtil;
 import io.netty.util.ReferenceCountUtil;
-
-import javax.sound.midi.Soundbank;
-import java.nio.charset.Charset;
 
 /**
  * 处理服务端的channel
@@ -28,6 +25,7 @@ public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
         try {
             ReferenceCountUtil.retain(msg);
             System.out.println("收到数据:"+((ByteBuf) msg).toString(CharsetUtil.UTF_8));
+            Thread.sleep(5000);
             System.out.flush();
             ctx.write(msg);
             ctx.flush();

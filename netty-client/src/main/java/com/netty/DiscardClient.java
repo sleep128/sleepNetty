@@ -1,4 +1,4 @@
-package com.discard;
+package com.netty;
 
 public class DiscardClient {
 }

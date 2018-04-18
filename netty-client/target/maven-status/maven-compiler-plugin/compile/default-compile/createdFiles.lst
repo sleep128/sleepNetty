@@ -1,3 +1,4 @@
 ClientHandler.class
-Client.class
 Client$1.class
+com/netty/DiscardClient.class
+Client.class

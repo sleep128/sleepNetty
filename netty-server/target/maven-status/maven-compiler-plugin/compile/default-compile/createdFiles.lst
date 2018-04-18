@@ -1,6 +1,10 @@
-com/discard/DiscardServerHandler.class
+com/netty/handler/DiscardServerHandler.class
+com/netty/handler/TimeServerHandler$1.class
+com/netty/server/TimeServer.class
+com/netty/server/DiscardServer.class
+com/netty/server/TimeServer$1.class
+com/netty/server/DiscardServer$1.class
 ServerExample$ServerHandler.class
+com/netty/handler/TimeServerHandler.class
 ServerExample$1.class
-com/discard/DiscardServer.class
 ServerExample.class
-com/discard/DiscardServer$1.class

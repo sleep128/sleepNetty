@@ -1,5 +1,7 @@
-package com.discard;
+package com.netty.server;
 
+import com.netty.handler.DiscardServerHandler;
+import com.netty.handler.TimeServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -12,11 +14,11 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 /**
  * 启动DiscardServerHandler的服务
  */
-public class DiscardServer {
+public class TimeServer {
     private String host;
     private int port;
 
-    public DiscardServer(String host,int port) {
+    public TimeServer(String host, int port) {
         this.host = host;
         this.port = port;
     }
@@ -34,7 +36,7 @@ public class DiscardServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {//(4)
                         @Override
                         public void initChannel(SocketChannel socketChannel) throws Exception {
-                            socketChannel.pipeline().addLast(new DiscardServerHandler());
+                            socketChannel.pipeline().addLast(new TimeServerHandler());
                         }
                     })
                     .option(ChannelOption.SO_BACKLOG, 128)//(5)
@@ -60,6 +62,6 @@ public class DiscardServer {
             port = 8080;
         }
         System.out.println(String.format("sever start,host:%s,port:%d",host,port));
-        new DiscardServer(host,port).run();
+        new TimeServer(host,port).run();
     }
 }

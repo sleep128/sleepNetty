@@ -1,3 +1,5 @@
-/Users/zhangyang/DEV/gitRepo/sleepNetty/netty-server/src/main/java/com/discard/DiscardServerHandler.java
+/Users/zhangyang/DEV/gitRepo/sleepNetty/netty-server/src/main/java/com/netty/handler/TimeServerHandler.java
+/Users/zhangyang/DEV/gitRepo/sleepNetty/netty-server/src/main/java/com/netty/server/TimeServer.java
+/Users/zhangyang/DEV/gitRepo/sleepNetty/netty-server/src/main/java/com/netty/server/DiscardServer.java
 /Users/zhangyang/DEV/gitRepo/sleepNetty/netty-server/src/main/java/ServerExample.java
-/Users/zhangyang/DEV/gitRepo/sleepNetty/netty-server/src/main/java/com/discard/DiscardServer.java
+/Users/zhangyang/DEV/gitRepo/sleepNetty/netty-server/src/main/java/com/netty/handler/DiscardServerHandler.java
