@@ -1,4 +1,7 @@
-ClientHandler.class
-Client$1.class
+com/netty/handler/TimeClientHandler.class
 com/netty/DiscardClient.class
 Client.class
+com/netty/client/TimeClient$1.class
+ClientHandler.class
+Client$1.class
+com/netty/client/TimeClient.class
